@@ -62,7 +62,7 @@ function run (regl) {
     datasets = [phyllotaxis, grid, sine, spiral].map((func, i) =>
       (datasets[i] || regl.buffer)(vectorFill(ndarray([], [n, 2]), func(n)))
     )
-    // This is just a list from 0 to 1 for coloring:
+    // This is just a list from 1 to 0 for coloring:
     colorBasis = (colorBasis || regl.buffer)(linspace(ndarray([], [n]), 1, 0))
   }
 
