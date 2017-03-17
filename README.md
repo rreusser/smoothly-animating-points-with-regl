@@ -8,4 +8,4 @@ Built with [regl](https://github.com/regl-project/regl/) and inspired by the sta
 
 &copy; 2017 Ricky Reusser. WTFPL.
 
-As per the MIT License on [Peter Bashai's original block](https://bl.ocks.org/pbeshai/65420c8d722cdbb0600b276c3adcc6e8), this repo uses (with gratitude!) the skeleton of the layout functions and is otherwise original code.
+As per the MIT License on [Peter Beshai's original block](https://bl.ocks.org/pbeshai/65420c8d722cdbb0600b276c3adcc6e8), this repo uses (with gratitude!) the skeleton of the layout functions and is otherwise original code.
