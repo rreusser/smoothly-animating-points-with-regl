@@ -71,8 +71,8 @@ function run (regl) {
 
   // Create nice controls:
   require('control-panel')([
-    {type: 'range', min: 1, max: 10, label: 'radius', initial: pointRadius},
-    {type: 'range', min: 1000, max: 200000, label: 'n', initial: n}
+    {type: 'range', min: 1, max: 10, label: 'radius', initial: pointRadius, step: 0.25},
+    {type: 'range', min: 1000, max: 200000, label: 'n', initial: n, step: 1000}
   ], {width: 400}).on('input', (data) => {
     pointRadius = data.radius
     if (data.n !== n) {

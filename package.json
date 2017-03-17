@@ -4,7 +4,7 @@
   "description": "Smoothly animating points with regl",
   "main": "index.js",
   "scripts": {
-    "start": "budo --open --live --host localhost index.js -- -g es2040 -t glslify",
+    "start": "budo --open --live --force-default-index --host localhost index.js -- -g es2040 -t glslify",
     "build": "browserify index.js -g es2040 -t glslify | uglifyjs -cm| indexhtmlify | metadataify | github-cornerify > index.html",
     "lint": "standard",
     "lint-fix": "standard --fix"
