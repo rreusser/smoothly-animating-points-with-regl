@@ -52,7 +52,7 @@ function run (regl) {
   let pointRadius = 4
 
   let lastSwitchTime = 0
-  let switchPeriod = 2
+  let switchInterval = 2
   let switchDuration = 1
 
   const createDatasets = () => {
@@ -124,7 +124,7 @@ function run (regl) {
   regl.frame(({time}) => {
     // Check how long it's been since the last switch, and cycle the buffers
     // and reset the timer if it's time for a switch:
-    if ((time - lastSwitchTime) > switchPeriod) {
+    if ((time - lastSwitchTime) > switchInterval) {
       lastSwitchTime = time
       datasetPtr++
     }
