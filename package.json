@@ -1,0 +1,38 @@
+{
+  "name": "points",
+  "version": "1.0.0",
+  "description": "Smoothly animating points with regl",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --open --live --host localhost index.js -- -g es2040 -t glslify",
+    "build": "browserify index.js -g es2040 -t glslify | uglifyjs -cm| indexhtmlify | metadataify | github-cornerify > index.html",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rreusser/smoothly-animating-points-with-regl"
+  },
+  "keywords": [],
+  "author": "Ricky Reusser",
+  "license": "WTFPL",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "budo": "^9.4.7",
+    "control-panel": "^1.2.0",
+    "eases": "^1.0.8",
+    "es2040": "^1.2.5",
+    "fail-nicely": "^2.0.0",
+    "github-cornerify": "^1.0.7",
+    "glsl-colormap": "^1.0.1",
+    "glslify": "^6.0.1",
+    "indexhtmlify": "^1.3.1",
+    "metadataify": "^1.0.3",
+    "ndarray": "^1.0.18",
+    "ndarray-linspace": "^2.0.3",
+    "ndarray-vector-fill": "^1.0.0",
+    "regl": "^1.3.0",
+    "standard": "^9.0.1",
+    "uglify-js": "^2.8.13"
+  }
+}
