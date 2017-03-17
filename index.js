@@ -49,7 +49,7 @@ function run (regl) {
   let colorBasis
   let datasetPtr = 0
 
-  let pointRadius = 4
+  let pointRadius = 3
 
   let lastSwitchTime = 0
   let switchInterval = 2
