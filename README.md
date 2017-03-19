@@ -4,6 +4,13 @@ Built with [regl](https://github.com/regl-project/regl/) and inspired by the sta
 
 > Using this approach with canvas can only get us so far. As you exceed 5,000 points and approach closer to 10,000 it is common to see degradation in performance. If you really need to animate that many points flying around, your best bet is to turn to WebGL and have shaders do the work for you. The regl library provides a nice interface to working with shaders and can be used effectively for this purpose, but that’s a topic for another day!
 
+## To run
+
+```bash
+$ npm install
+$ npm start
+```
+
 ## License
 
 &copy; 2017 Ricky Reusser. WTFPL.
