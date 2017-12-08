@@ -1,6 +1,6 @@
 # Smoothly animating points with regl
 
-> http://rickyreusser.com/smoothly-animating-points-with-regl/
+> http://rreusser.github.io/smoothly-animating-points-with-regl/
 
 Built with [regl](https://github.com/regl-project/regl/) and inspired by the statement on Peter Beshai's lovely blog post [Smoothly animate thousands of points with HTML5 Canvas and D3](https://bocoup.com/blog/smoothly-animate-thousands-of-points-with-html5-canvas-and-d3):
 
